@@ -11,8 +11,15 @@ package customermailapplication;
  * @author sarun
  */
 //make this class a subclass of customer
-public class MountainCustomer  {
+public class MountainCustomer extends Customer {
 
-    //Complete this class
+    /**
+     *
+     * @return
+     */
+    @Override
+    public String createMail() {
+        return "Mountain Customer";
+    }
     
 }
